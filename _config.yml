@@ -1,9 +1,10 @@
-title: Personal Site
-description: "A GitHub Pages-powered Jekyll site."
+title: [Your Name]
+description: [A short description of your site's purpose]
 url: ""
 baseurl: ""
 
-theme: minima
+remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
