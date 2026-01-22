@@ -1,0 +1,9 @@
+title: Personal Site
+description: "A GitHub Pages-powered Jekyll site."
+url: ""
+baseurl: ""
+
+theme: minima
+
+plugins:
+  - jekyll-feed
