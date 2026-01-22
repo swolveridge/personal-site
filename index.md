@@ -3,4 +3,14 @@ layout: home
 title: Home
 ---
 
-Welcome! This site is powered by Jekyll and served through GitHub Pages.
+# Simon Wolveridge
+
+I write software
+
+## This is a subheading
+
+And this is some text.
+
+---
+
+Wow.
