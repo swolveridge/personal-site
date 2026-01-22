@@ -1,6 +1,8 @@
 title: "Simon's place"
 description: "Where I put stuff"
-url: https://wolveridge.uk
+
+url: "https://wolveridge.uk"
+baseurl: ""
 
 remote_theme: pages-themes/minimal@v0.2.0
 
