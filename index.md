@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+[About](about.md)
+
 # Simon Wolveridge
 
 I write software
