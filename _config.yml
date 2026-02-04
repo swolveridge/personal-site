@@ -4,6 +4,9 @@ description: "Where I put stuff"
 url: "https://wolveridge.uk"
 baseurl: ""
 
+markdown: kramdown
+permalink: pretty
+
 remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:
