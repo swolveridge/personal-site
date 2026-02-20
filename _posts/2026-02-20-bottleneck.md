@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "The bottleneck is shifting"
 date: 2026-02-20
 ---
