@@ -1,4 +1,8 @@
-## The bottleneck is shifting
+---
+layout: default
+title: "The bottleneck is shifting"
+date: 2026-02-20
+---
 
 LLMs change what's scarce – the ability to produce median-or-above quality code.
 However, they don't solve social problems, or organisational problems, and the acceleration they provide is likely to make them worse.
@@ -32,7 +36,7 @@ Some non-independent, overlapping thoughts about bottlenecks:
 * Accidental architectures scale faster than intentional ones – especially given that LLMs tend to be 'inspired' by your existing code, rather than your in-head idea of the architecture you *want*; they're looking at the architecture you *have*.
 * Local checks can stop correlating with global correctness – LLMs are great at local correctness, but not necessarily at global coherence (since they likely don't have the context for it and lack stable system-level memory) – are integration and end-to-end tests more important than ever? Boundaries certainly are.
 * Implicit invariants and accidental complexity can proliferate if boundaries are not kept strict – boundaries between components, libraries, systems – this has to be done at every level.
-* The danger is not chaos; it’s smooth, locally-correct changes that accelerate global incoherence.
+* The danger is not chaos; it's smooth, locally-correct changes that accelerate global incoherence.
 * LLMs *can* be used to improve this situation, but they must be built carefully and intentionally to do this:
 
   * I've not seen much evidence of this happening in practice so far.
@@ -52,7 +56,7 @@ Some non-independent, overlapping thoughts about bottlenecks:
   * LLMs rarely push back and suggest a bit of re-architecture.
   * Liable to get stuck in local maxima.
 
-## Latent senior-capability decay and rationale loss (capability bottleneck)
+### Latent senior-capability decay and rationale loss (capability bottleneck)
 
 * Does it become more difficult to learn the hard lessons in this system?
 
@@ -105,9 +109,9 @@ If the predicted failure modes above are real, the design response is not more o
 * **Independence beats agreement.**
 * **You must actively protect solution-space diversity.**
 
-### ?
+### Things to maybe actually do
 
-* **Separation of duties for models:** one model/agent generates; a different one critiques/tests; don’t let one “own” an artefact twice.
+* **Separation of duties for models:** one model/agent generates; a different one critiques/tests; don't let one "own" an artefact twice.
 * **ADR triggers:** define when an ADR/design note is mandatory (new invariant, interface change, architectural shift, security boundary, performance trade-off).
 * **Reasoning to capture:** trade-offs, alternatives considered, invariant preserved/created, rollback plan.
 * **System-level drift reviews:** lightweight but regular reviews focused on architecture coherence and implicit invariants (not code style).
