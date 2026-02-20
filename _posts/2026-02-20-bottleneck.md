@@ -23,9 +23,7 @@ Also note, almost none of these problems are new – humans suffer from all of t
 
 Many of these bottlenecks are not technical at all; they are organisational and incentive-aligned failures that LLMs amplify.
 
----
-
-Some non-independent, overlapping thoughts about bottlenecks:
+Here are some non-independent, overlapping thoughts about bottlenecks:
 
 ### Velocity, assurance and local correctness vs global coherence (verification / coherence bottleneck)
 
@@ -95,7 +93,6 @@ Some non-independent, overlapping thoughts about bottlenecks:
   * Also need to include retrieval into pipelines.
   * Notably, this has the universal design property – it's designed to help agents, but it helps *everyone*.
 
----
 
 ## TL;DR
 
