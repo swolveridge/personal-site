@@ -4,6 +4,8 @@ title: "Every day's a school day"
 date: 2026-05-13
 ---
 
+*(a mildly cleaned-up transcript of my thoughts)*
+
 We're still in the early days of LLMs and coding agents, and particularly in the very early days of coding agent harnesses. As developers we're all doing this massively parallel distributed random walk around the solution space, trying to find the patterns that work — ways of structuring our agents, managing context, writing CLAUDE.md files, all of it. Everyone has half answers, everyone's reinventing them locally, and ideas are shared very inefficiently via blog posts or word of mouth or leaning over someone's shoulder and seeing something interesting. Perhaps that's the way this space has to be explored right now. The solution space is enormous and we've limited resource with which to explore it. Honestly, I think most of the people using agent harnesses aren't really exploring the space at all. And there's a huge amount of pressure on those developing agent harnesses to get things out the door, which doesn't always align with good, coherent exploration.
 
 It's also not helped that there's no canonical reference. I was talking to my wife, who is a teacher, about all of this, and she likened it to being a brand new teacher: everything is exhausting because you're juggling all these things, understanding all the problems and shortcomings, tweaking and refining, all while trying to actually get your job done. The difference is that for teaching there's pedagogical grounding, and experienced teachers to lean on, get resources from, and talk to. In our world it's just all of us idiots flapping around together.
